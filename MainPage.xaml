@@ -28,6 +28,8 @@
                     BackgroundColor="#FFFFFF"
                     Text="1+"/>
                 <Button
+                    Clicked="hinzufügen_button_deutsch_Clicked"
+                    IsEnabled="True"
                     x:Name="hinzufügen_button_deutsch"
                     WidthRequest="150"
                     HeightRequest="30"

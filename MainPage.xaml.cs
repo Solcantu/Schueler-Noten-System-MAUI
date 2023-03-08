@@ -6,4 +6,9 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private async void hinzufügen_button_deutsch_Clicked(object sender, EventArgs e)
+	{
+		await Shell.Current.GoToAsync("addPage");
+	}
 }
